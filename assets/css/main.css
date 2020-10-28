@@ -32,7 +32,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 h1 {
   font-size: 2.75rem !important;
-  color: #808080 !important;
 }
 h2 {
   font-size: 1.875rem;
@@ -922,5 +921,21 @@ pre {
 }
 
 .custom-main-container {
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-grow {
+  flex-grow: 1;
 }
