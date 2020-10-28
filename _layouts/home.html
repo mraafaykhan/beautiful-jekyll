@@ -6,6 +6,9 @@ layout: page
 {% assign posts = paginator.posts | default: site.posts %}
 
 <div class="posts-list">
+       <h1>
+              My Blogs
+       </h1>
   {% for post in posts %}
   <article class="post-preview">
     <a href="{{ post.url | relative_url }}">
